@@ -10,7 +10,7 @@ h1{
 .p{
     color: rgb(237, 245, 237);
 }
-.name-highlight{
+.orange-highlight{
    color: orange;
 }
 .half-width{
@@ -18,9 +18,10 @@ h1{
     float: left;
     margin: left 5%;
     padding-left: 2%;
+    
 }
-.half-width img{
-    width: 100%;
+.half-width img {
+    width: 80%;
 
 }
 .top-banner{
@@ -49,4 +50,35 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px rgb(48, 2, 48) ;
+    border-radius: 5px ;
+    height: 80%;
+    margin: 2%;
+    background-color:rgb(161, 161, 161) ;
+    
+
+}
+.area{
+    background-image:url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: liner-gradient(180deg lightsalmon, tomato);
+    border-image-slice: 1;
+   
+
+}
+#Baby-Web{
+    border-left: 7px solid;
+    border-image: liner-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: gold;
 }
